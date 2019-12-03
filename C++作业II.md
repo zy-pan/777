@@ -1,7 +1,7 @@
 ## 9.11
 
 ```c++
-vector<int> vec;    // 0
+vector<int> vec;  // 0
 vector<int> vec(10);    // 0
 vector<int> vec(10,1);  // 1
 vector<int> vec{1,2,3,4,5}; // 1,2,3,4,5
