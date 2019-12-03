@@ -1,10 +1,15 @@
 ## 9.11
 
 vector<int> vec;    // 0
+
 vector<int> vec(10);    // 0
+
 vector<int> vec(10,1);  // 1
+
 vector<int> vec{1,2,3,4,5}; // 1,2,3,4,5
+
 vector<int> vec(other_vec); // same as other_vec
+
 vector<int> vec(other_vec.begin(), other_vec.end());  // same as other_vec
 
 ## 9.20
@@ -524,8 +529,8 @@ base::print(os);
 class limit_quote : public Disc_quote
 {
 public:
-    limit_quote();//默认构造函数
-    limit_quote(const string&book, double price, size_t qty,double disc):Disc_quote(book,price,qty,disc){}//构造函数,直接调用基类的构造函数
+    limit_quote();
+    limit_quote(const string&book, double price, size_t qty,double disc):Disc_quote(book,price,qty,disc){}
     double net_price(size_t n) const
     {
         if (n > quantity)
