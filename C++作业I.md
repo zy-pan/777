@@ -36,13 +36,13 @@
 using namespace std;
 int main()
 {	
-	string s1, s2;
-	cin >> s1 >> s2;
-	if (s1 != s2)
-	{
-		cout << (s1 >= s2 ? s1 : s2) << endl;
-	}
-	return 0;
+    string s1, s2;
+    cin >> s1 >> s2;
+    if (s1 != s2)
+    {
+        cout << (s1 >= s2 ? s1 : s2) << endl;
+    }
+    return 0;
 }
 ```
 
@@ -54,13 +54,13 @@ int main()
 using namespace std;
 int main()
 {	
-	string s1, s2;
-	cin >> s1 >> s2;
-	if (s1.size() != s2.size())
-	{
-		cout << (s1.size() >= s2.size() ? s1 : s2) << endl;
-	}
-	return 0;
+    string s1, s2;
+    cin >> s1 >> s2;
+    if (s1.size() != s2.size())
+    {
+        cout << (s1.size() >= s2.size() ? s1 : s2) << endl;
+    }
+    return 0;
 }
 ```
 
@@ -74,13 +74,13 @@ int main()
 using namespace std;
 int main()
 {
-	string s, sum;
-	while (getline(cin,s))
-	{
-		sum += s;
-		cout << sum << endl;
-	}
-	return 0;
+    string s, sum;
+    while (getline(cin,s))
+    {
+        sum += s;
+        cout << sum << endl;
+    }
+    return 0;
 }
 ```
 
@@ -92,13 +92,13 @@ int main()
 using namespace std;
 int main()
 {
-	string s, sum;
-	while (getline(cin,s))
-	{
-		sum += s + " ";
-		cout << sum << endl;
-	}
-	return 0;
+    string s, sum;
+    while (getline(cin,s))
+    {
+        sum += s + " ";
+        cout << sum << endl;
+    }
+    return 0;
 }
 ```
 
@@ -110,19 +110,19 @@ int main()
 using namespace std;
 int main()
 {
-	vector<int> ivec;
-	for (int i = 0; i < 10 ; i++)
-	{
-		ivec.push_back(i);
-	}
-	int sum[10];
-	for (int k = 0; k < 10 ; k++)
-	{
-		sum[k] = ivec[k] + ivec[k+1];
-		cout << sum[k] << endl;
-		k++;
-	}
-	return 0;
+    vector<int> ivec;
+    for (int i = 0; i < 10 ; i++)
+    {
+        ivec.push_back(i);
+    }
+    int sum[10];
+    for (int k = 0; k < 10 ; k++)
+    {
+        sum[k] = ivec[k] + ivec[k+1];
+        cout << sum[k] << endl;
+        k++;
+    }
+    return 0;
 }
 ```
 
@@ -134,18 +134,18 @@ int main()
 using namespace std;
 int main()
 {
-	vector<int> ivec;
-	for (int i = 0; i < 10 ; i++)
-	{
-		ivec.push_back(i);
-	}
-	int sum[10];
-	for (int k = 0; k < 5 ; k++)
-	{
-		sum[k] = ivec[k] + ivec[9-k];
-		cout << sum[k] << endl;
-	}
-	return 0;
+    vector<int> ivec;
+    for (int i = 0; i < 10 ; i++)
+    {
+        ivec.push_back(i);
+    }
+    int sum[10];
+    for (int k = 0; k < 5 ; k++)
+    {
+        sum[k] = ivec[k] + ivec[9-k];
+        cout << sum[k] << endl;
+    }
+    return 0;
 }
 ```
 
@@ -157,15 +157,15 @@ int main()
 using namespace std;
 int main()
 {
-	vector<int> text;
-	for (int i = 0; i < 10 ; i++)
-        text.push_back(i);
-	for (auto it = text.begin() ; it != text.end() ; it++)
-	{
-		*it = *it * 2;
-		cout << *it << endl;
-	}
-	return 0;
+    vector<int> text;
+    for (int i = 0; i < 10 ; i++)
+    text.push_back(i);
+    for (auto it = text.begin() ; it != text.end() ; it++)
+    {
+        *it = *it * 2;
+        cout << *it << endl;
+    }
+    return 0;
 }
 ```
 
@@ -190,13 +190,13 @@ int main()
     cin >> m >> n;
     exchange(m,n);
     cout << m << " " << n;
-	return 0;
+    return 0;
 }
 ```
 
 ## 6.19
 
-(a)  不合法，函数只有一个形参，但传入了两个实参
+(a) 不合法，函数只有一个形参，但传入了两个实参
 
 (b) 合法
 
