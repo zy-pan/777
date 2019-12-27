@@ -1,18 +1,18 @@
 ## Pull request
 
-![PR2](D:\HP\Documents\Study\第三学期\C++面向对象程序设计\PR2.png)
+![PR2](https://github.com/zy-pan/hello-world/blob/master/PR2.png)
 
-![PR1](D:\HP\Documents\Study\第三学期\C++面向对象程序设计\PR1.png)
+![PR1](https://github.com/zy-pan/hello-world/blob/master/PR1.png)
 
 ## Make
 
-![make-durationtest](make-durationtest.png)
+![make-durationtest](https://github.com/zy-pan/hello-world/blob/master/make-durationtest.png)
 
 ## Test
 
 修改后运行结果：
 
-![run-duration](D:\HP\Documents\Study\第三学期\C++面向对象程序设计\run-duration.png)
+![run-duration](https://github.com/zy-pan/hello-world/blob/master/run-duration.png)
 
 想利用steady_clock测试不同大小容量的vector求和的耗时
 
@@ -22,7 +22,7 @@
 
    问题：在第一次新建虚拟机时选择了典型（推荐），但是第一次进度条卡死在了copying file步骤，第二次虽然成功安装了虚拟机但是耗时4个小时才安装成功，且第二次开启虚拟机虚拟机就打不开了。
 
-   <img src="D:\HP\Documents\Study\第三学期\C++面向对象程序设计\典型.png" alt="典型" style="zoom:50%;" />
+   <img src="https://github.com/zy-pan/hello-world/blob/master/典型.png" alt="典型" style="zoom:50%;" />
 
    解决：改用自定义（高级）安装，一个小时不到就安装好了。
 
